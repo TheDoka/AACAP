@@ -10,5 +10,10 @@ USE:
      CaPatcher.bat [DRAG/DROP]
     
 
-![Example](https://i.ibb.co/JtGKW1b/explorer-TNPx-E8-PZpp.png)
+![Example](https://raw.githubusercontent.com/TheDoka/AACAP/master/example.png)
 
+USING: 
+
+Apktool: https://ibotpeaches.github.io/Apktool/
+
+SignApk: https://github.com/techexpertize/SignApk
