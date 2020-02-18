@@ -47,7 +47,7 @@ echo [PHASE 4] Done.
 
 echo Cleaning...
 del %~n1-tmp.apk
-rmdir /S /Q base
+rmdir /S /Q %~n1
 echo Done.
 
 
