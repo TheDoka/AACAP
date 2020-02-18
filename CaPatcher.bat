@@ -15,7 +15,7 @@ powershell -Command "(gc %~n1\AndroidManifest.xml) -replace '<application', '<ap
 
 
 echo [PHASE 2] Creating network-security-config file...
-rem Create the XML file that allow the application to use unknowns certificates.
+rem Create the XML file that allows the application to use unknown certificates.
 (
 echo ^<network-security-config^>  
 echo       ^<base-config^>  
