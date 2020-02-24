@@ -2,7 +2,7 @@
 set file=%~nx1
 
 echo [PHASE 1] Decompiling %file%...
-"bin/apktool.jar" d %file%
+java -jar "bin/apktool.jar" d %file%
 echo [PHASE 1] Done.
 
 
@@ -41,7 +41,7 @@ echo [PHASE 3] Done.
 
 echo [PHASE 4] Signing...
 rem Sign the tmp apk as final patched apk.
-"bin/signapk.jar" "bin/certificate.pem" "bin/key.pk8" %~n1-tmp.apk %~n1-patched.apk
+java -jar "bin/signapk.jar" "bin/certificate.pem" "bin/key.pk8" %~n1-tmp.apk %~n1-patched.apk
 echo [PHASE 4] Done.
 
 
